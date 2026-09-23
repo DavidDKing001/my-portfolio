@@ -1,0 +1,242 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: gray;
+
+}
+
+main {
+
+    margin: 10px auto;
+    padding: 10px;
+}
+
+.navbar {
+    display: flex;
+    margin: 0 auto;
+    background-color: white;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.logo {
+    font-size: xx-large;
+    font-weight: bold;
+    color: navy;
+    margin: 0px 30px;
+}
+
+ul {
+    display: flex;
+
+}
+
+li {
+    display: block;
+    margin: 10px 40px;
+
+}
+
+li a {
+    text-decoration: none;
+
+}
+
+li a.B {
+    color: green;
+}
+
+li a.B:hover {
+    background-color: navy;
+    color: white;
+    border-radius: 0px 30px 0px 30px;
+    padding: 10px;
+}
+
+li a.C {
+    color: red;
+}
+
+li a.C:hover {
+    background-color: navy;
+    color: white;
+    border-radius: 0px 30px 0px 30px;
+    padding: 10px;
+}
+
+li a.D:hover {
+    background-color: navy;
+    color: white;
+    border-radius: 0px 30px 0px 30px;
+    padding: 10px;
+
+
+}
+
+li a.D {
+    color: purple;
+}
+
+li a.Z {
+    color: black;
+}
+
+li a.Z:hover {
+    background-color: navy;
+    color: white;
+    border-radius: 0px 30px 0px 30px;
+    padding: 10px;
+
+}
+
+.hero-file {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 30px;
+    align-items: center;
+    color: white;
+}
+
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: xx-large;
+    font-weight: bold;
+    color: aqua;
+
+
+}
+
+b {
+    color: navy;
+}
+
+.hero-btn {
+    margin: 50px auto;
+    padding: 50px auto;
+}
+
+button {
+    list-style-type: none;
+    padding: 10px;
+    width: 150px;
+    border-radius: 10px;
+    background-color: navy;
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+}
+
+.hero-img {
+
+    margin: 0px;
+    padding: 20px;
+}
+
+img {
+    background-color: navy;
+    border-radius: 0px 70px 0px 70px;
+    border: 5px solid red;
+
+}
+
+main {
+    margin: 10px auto;
+    padding: 10px;
+
+}
+
+.main-bar {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 30px;
+    color: white;
+
+}
+
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: xx-large;
+    font-display: block;
+    margin: 50px auto;
+    padding: 50px auto;
+}
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+    font-display: block;
+    margin: 50px auto;
+    padding: 50px auto;
+
+}
+
+.main-btn {
+    margin: 50px auto;
+    padding: 50px auto;
+}
+
+h4 {
+    font-size: x-large;
+    background-color: black;
+    color: white;
+    width: 350px;
+    border-radius: 10px;
+
+}
+
+.main-scroll {
+    margin: 10px auto;
+}
+
+.main-wall {
+    display: flex;
+    margin: 0px 30px;
+    color: white;
+
+
+}
+
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: x-large;
+    font-display: block;
+    margin: 50px auto;
+    padding: 50px auto;
+}
+
+.main-builder {
+    display: flex;
+    margin: 0px 30px;
+    color: white;
+
+
+}
+
+.CTA {
+    display: flex;
+    padding: 10px;
+    margin: 30px;
+
+}
+
+i.fa-solid.fa-phone{
+    margin: 0px 50px;
+}
+
+i.fa-brands.fa-linkedin-in{
+    margin: 0px 50px;
+
+}
+i{
+    color: white;
+}
+
