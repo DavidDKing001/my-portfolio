@@ -17,14 +17,17 @@ main {
     padding: 10px;
     flex-wrap: wrap;
 }
+i.fa-solid.fa-bars{
+    color: navy;
+    margin: 10px;
+}
 
-.navbar {
+header {
     display: flex;
     margin: 0 auto;
     background-color: white;
     justify-content: space-between;
     padding: 10px;
-    flex-wrap: wrap;
 }
 
 .logo {
@@ -42,6 +45,21 @@ ul {
 li {
     display: block;
     margin: 10px 40px;
+
+}
+.hand{
+    display: none;
+}
+@media (max-width:768px) {
+
+    ul{
+        display: none;
+    } 
+    .hand{
+    display: block;
+    
+
+    }
 
 }
 
